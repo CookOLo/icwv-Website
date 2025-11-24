@@ -1,17 +1,39 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
 body {
   background-color: black; 
   color: black;
   font-family:'Courier New';
 }
 
+.head {
+  color:#1bff80;
+  font-size:37px;
+  text-align: center;
+}
+
+.blurb {
+  color:#1bff80;
+  font-size:19px;
+  text-align: center;
+  max-width: 800px; 
+  margin: 0 auto; 
+  background: #141414; 
+  border-radius: 12px; 
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15); 
+  padding: 20px; 
+  border-top: 6px solid SkyBlue; /* Maroon accent bar */ 
+}
+
 
 .box {
+  border-radius: 12px; 
+  margin: 0 auto; 
   border: 2px solid SkyBlue; 
   margin: 30px auto; 
-  padding-left: 15px; 
-  padding-right: 15px;
+  width: 90%;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.Discord_widget {
+  border-radius: 12px; 
+  border: 2px solid SkyBlue;
 }
