@@ -29,6 +29,11 @@ body {
   margin: 0 auto; 
   border: 2px solid SkyBlue; 
   margin: 30px auto; 
-  padding-left: 15px; 
-  padding-right: 15px;
+  width: 90%;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.Discord_widget {
+  border-radius: 12px; 
+  border: 2px solid SkyBlue;
 }
