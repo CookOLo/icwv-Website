@@ -1,7 +1,7 @@
 .topnav {
     display: flex;
     background-color: #333;
-    background-image: linear-gradient(to bottom, rgb(139, 168, 210), rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(216, 115, 194), rgb(0, 0, 0));
     
   }
   
@@ -20,6 +20,6 @@
   
   .topnav a.active {
     background-color: #c0ffff;
-    background-image: linear-gradient(to bottom, #c0ffff, rgb(63, 96, 104));
+    background-image: linear-gradient(to bottom, #b53cc3, rgb(113, 83, 121));
     color: rgb(0, 0, 0);
   }
